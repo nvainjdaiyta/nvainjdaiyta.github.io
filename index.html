@@ -19,6 +19,20 @@ p    {color: rgb(237, 220, 151);}
   width: 60%;
   padding: 10px;
 }
+
+.container {
+    margin: 10px;
+    width: 115px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    border: 1px solid rgb(237, 220, 151);
+}
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
 </style></head>
 <body>
 
@@ -27,8 +41,16 @@ p    {color: rgb(237, 220, 151);}
 <h2 style="text-align:center;"> <p style="text-align:center;"><a href="https://www.youtube.com/channel/UClu9OqRGUtqh3mm3aHVgG8Q">Live stream of New Jersey Event </a></p> </h2>
 </div>
 
+<!--
 <div class="centerb">
 <img src="My Invitation.jpeg" style="width: 800px; height: 800px;" />
+</div>
+-->
+<div class='container'>
+    <a href='#'>
+    <img class='resize_fit_center'
+      src='My Invitation.jpeg' />
+    </a>
 </div>
 
 
